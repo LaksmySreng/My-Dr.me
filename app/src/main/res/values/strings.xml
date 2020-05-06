@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Dr.Me</string>
     <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="this_is_activity2">This is activity2</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
 </resources>

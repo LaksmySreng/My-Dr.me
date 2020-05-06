@@ -7,34 +7,41 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/fistname@Edittext"
+        android:id="@+id/FirstNameEdittext"
         android:layout_width="241dp"
         android:layout_height="33dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="44dp"
         android:text="@string/firstname"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/lastNameEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/lastNameEditText"
         android:layout_width="241dp"
         android:layout_height="33dp"
-        android:layout_marginBottom="55dp"
-        android:text="LastName"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        android:layout_marginBottom="40dp"
+        android:text="@string/lastname"
+        app:layout_constraintBottom_toTopOf="@+id/emailEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/emailEditText"
         android:layout_width="241dp"
         android:layout_height="33dp"
-        android:text="TextView"
+        android:layout_marginBottom="96dp"
+        android:text="Email"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="251dp" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="355dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
