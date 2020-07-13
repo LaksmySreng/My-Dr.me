@@ -6,4 +6,9 @@
     <string name="button">Button</string>
     <string name="textview">TextView</string>
     <string name="email">Email</string>
+    <string name="account"> Your rofile</string>
+    <string name="search">Doctors</string>
+    <string name="doctors">List of Doctors</string>
+    <string name="ann">Announcement</string>
+    <string name="health">Health news</string>
 </resources>
