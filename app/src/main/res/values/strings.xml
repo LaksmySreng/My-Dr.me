@@ -6,9 +6,21 @@
     <string name="button">Button</string>
     <string name="textview">TextView</string>
     <string name="email">Email</string>
-    <string name="account"> Your rofile</string>
+    <string name="account"> Your Profile</string>
     <string name="search">Doctors</string>
     <string name="doctors">List of Doctors</string>
     <string name="ann">Announcement</string>
     <string name="health">Health news</string>
+    <string name="log_out">Log out</string>
+    <string name="favorites">Favorites</string>
+    <string name="sign">Sign Up</string>
+    <string name="settings">Setting</string>
+    <string name="welcome">Welcome to Dr.Me!</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="this_is_profile_fragment">This is Profile Fragment</string>
+    <string name="consult">Consult</string>
 </resources>

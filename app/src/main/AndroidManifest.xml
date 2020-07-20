@@ -20,6 +20,14 @@
         <activity android:name=".Activity2" />
         <activity android:name=".Activity3"/>
         <activity android:name=".DashboardActivity"/>
+        <activity android:name=".ActivityDashboard"/>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".ProfileFragement"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".LoginMethodsActivity"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".DoctorActivity"/>
+
 
     </application>
 

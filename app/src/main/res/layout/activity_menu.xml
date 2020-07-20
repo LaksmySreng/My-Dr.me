@@ -18,8 +18,8 @@
 
             <ImageView
                 android:id="@+id/img_logo"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
 
                 android:src="@drawable/ic_logo" />
 
@@ -31,7 +31,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:clickable="true"
             android:onClick="onButtonClick"
             android:text="Welcome to Dr.Me!"
             tools:visibility="visible" />

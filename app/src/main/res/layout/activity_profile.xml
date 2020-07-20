@@ -9,7 +9,7 @@
         android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="#2b348f">
+        android:background="@color/app_color">
 
         <TextView
             android:layout_width="wrap_content"
@@ -21,14 +21,14 @@
         <ImageView
             android:id="@+id/img_profile"
             android:layout_width="80dp"
-            android:src="@drawable/ic_acc"
+            android:src="@drawable/ic_image"
             android:layout_centerInParent="true"
             android:layout_height="80dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:textColor="#fff"
-            android:text="Samnang Sim"
+            android:text="Sotheary Vey"
             android:id="@+id/txt_name"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/img_profile"
@@ -49,6 +49,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Toolbar -->
+
+            <!-- Bottom Bar menu -->
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bootom_nav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/activity_bottom_nav" />
+
+            <!-- Fragment container -->
+            <FrameLayout
+                android:id="@+id/lyt_fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/bootom_nav"
+                android:layout_below="@id/toolbar" />
+
+        </RelativeLayout>
     </LinearLayout>
 
 </LinearLayout>

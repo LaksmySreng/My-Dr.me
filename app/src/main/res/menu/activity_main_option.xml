@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mnu_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="@string/search" />
+
+    <item android:id="@+id/mnu_profile"
+        android:icon="@drawable/ic_acc"
+        app:showAsAction="always"
+        android:title="@string/account" />
+
+    <item android:id="@+id/mnu_log_out"
+        app:showAsAction="never"
+        android:title="@string/log_out" />
+
+</menu>

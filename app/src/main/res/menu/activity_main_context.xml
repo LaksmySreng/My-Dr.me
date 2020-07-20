@@ -3,14 +3,14 @@
 
     <item
         android:id="@+id/mnu_doctor"
-        android:title="Doctors"/>
+        android:title="@string/doctors"/>
     <item
-        android:id="@+id/favorites"
-        android:title="Favorites"
+        android:id="@+id/mnu_favorites"
+        android:title="@string/favorites"
         />
     <item
         android:id="@+id/mnu_signup"
-        android:title="Sign-up"
+        android:title="@string/sign"
         />
 
 </menu>

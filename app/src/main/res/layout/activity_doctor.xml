@@ -39,20 +39,17 @@
 
                     <ImageView
                         android:layout_width="71dp"
-                        android:layout_height="66dp"
-                        android:src="@drawable/ic_search" />
+                        android:layout_height="59dp"
+                        android:src="@drawable/ic_d1" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#F8F6F6"
                         android:clickable="true"
-                        android:text="@string/search"
-                        android:textColor="@color/app_color"
-                        tools:text="@string/search" />
+                        android:text="@string/consult"
+                        android:textColor="@color/app_color"/>
                 </LinearLayout>
-
-
                 <!-- Payments Menu -->
                 <LinearLayout
                     android:layout_width="0dp"
@@ -65,7 +62,7 @@
                         android:layout_width="71dp"
                         android:layout_height="66dp"
                         android:background="#FFFDFD"
-                        android:src="@drawable/ic_acc"
+                        android:src="@drawable/ic_d2"
                         android:visibility="visible" />
 
                     <Button
@@ -75,10 +72,10 @@
                         android:background="#F8F6F6"
                         android:clickable="true"
                         android:onClick="onButtunProfileClick"
-                        android:text="@string/account"
+                        android:text="@string/consult"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         android:textColor="@color/app_color"
-                        tools:text="@string/account" />
+                        tools:text="@string/consult" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -102,14 +99,14 @@
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="66dp"
-                        android:src="@drawable/ic_health" />
+                        android:src="@drawable/ic_d3" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:background="#F8F6F6"
-                        android:text="@string/health"
+                        android:text="@string/consult"
                         android:textColor="@color/app_color" />
                 </LinearLayout>
 
@@ -125,14 +122,14 @@
                         android:layout_width="71dp"
                         android:layout_height="66dp"
                         android:clickable="true"
-                        android:src="@drawable/ic_ann" />
+                        android:src="@drawable/ic_d4" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:background="#F8F6F6"
-                        android:text="@string/ann"
+                        android:text="@string/consult"
                         android:textColor="@color/app_color" />
                 </LinearLayout>
 
@@ -156,15 +153,14 @@
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="66dp"
-                        android:src="@drawable/ic_list" />
+                        android:src="@drawable/ic_d5" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="37dp"
                         android:background="#F8F6F6"
                         android:clickable="true"
-                        android:onClick="onButtunDoctorListClick"
-                        android:text="@string/doctors"
+                        android:text="@string/consult"
                         android:textColor="@color/app_color" />
                 </LinearLayout>
                 <LinearLayout
@@ -178,19 +174,17 @@
                         android:layout_width="71dp"
                         android:layout_height="66dp"
                         android:longClickable="true"
-                        android:src="@drawable/ic_fav" />
+                        android:src="@drawable/ic_d6" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:background="#F8F6F6"
-                        android:text="@string/ann"
+                        android:text="@string/consult"
                         android:textColor="@color/app_color" />
                 </LinearLayout>
-
             </LinearLayout>
-
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

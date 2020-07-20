@@ -13,9 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     public void onButtonClick(View view){
-        Intent intent = new Intent(this, Activity2.class);
+        Intent intent = new Intent(this, DashboardActivity.class);
         startActivity(intent);
     }
 }
